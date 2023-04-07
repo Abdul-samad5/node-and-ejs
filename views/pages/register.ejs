@@ -1,0 +1,49 @@
+<!-- views/register.ejs -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register for an Account</title>
+</head>
+<body>
+  <h1>Register for an Account</h1>
+  <form method="POST" action="/register">
+    <label>
+      First Name:
+      <input type="text" name="firstName" required>
+    </label>
+    <br>
+    <label>
+      Last Name:
+      <input type="text" name="lastName" required>
+    </label>
+    <br>
+    <label>
+      Address:
+      <input type="text" name="address" required>
+    </label>
+    <br>
+    <label>
+      Postcode:
+      <input type="text" name="postcode" required>
+    </label>
+    <br>
+    <label>
+      Sector:
+      <input type="text" name="sector" required>
+    </label>
+    <br>
+    <label>
+      Email:
+      <input type="email" name="email" required>
+    </label>
+    <br>
+    <label>
+      Password:
+      <input type="password" name="password" required>
+    </label>
+    <br>
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>

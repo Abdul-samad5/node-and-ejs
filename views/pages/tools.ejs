@@ -1,0 +1,17 @@
+<!-- views/tools.ejs -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tools Available for Hire</title>
+</head>
+<body>
+  <h1>Tools Available for Hire</h1>
+
+  <ul>
+    <% for (let i = 0; i < tools.length; i++) { %>
+      <li><%= tools[i].name %> - <%= tools[i].price %></li>
+    <% } %>
+  </ul>
+</body>
+</html>
